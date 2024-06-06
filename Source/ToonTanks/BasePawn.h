@@ -28,7 +28,4 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 };
