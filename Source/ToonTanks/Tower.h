@@ -25,5 +25,4 @@ private:
 	class ATank* Tank;
 	UPROPERTY(EditDefaultsOnly, Category = "Combat");
 	float FireRange = 700.f;
-
 };
