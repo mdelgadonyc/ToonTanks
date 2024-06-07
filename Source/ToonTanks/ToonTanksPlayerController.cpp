@@ -6,7 +6,7 @@
 
 void AToonTanksPlayerController::SetPlayerEnabledState(bool bPlayerEnabled)
 {
-    if (bActorLabelEditable)
+    if (bPlayerEnabled)
     {
         GetPawn()->EnableInput(this);
     }
